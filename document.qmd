@@ -1,0 +1,55 @@
+---
+title: "Document - Sample 1"
+---
+
+Software Requirements Specification
+
+0.  Metryka
+
+    1.  Tytuł
+    2.  Logo/ Unikalny numer / Wersja dokumentu (wersja z Github?)
+    3.  Data utworzenia / Data modyfikacji
+    4.  Authors (Tabela: Name, Role, Department)
+    5.  Historia dokumentu (Tabela: Data, Wersja, Revision Description, Revision Author)
+    6.  Approvals (może na końcu tabela: Approval date, Approved Version, Approver Role, Approver)
+
+1.  Introduction
+
+    1.  Cel projektu (purpose of project)
+    2.  Definicje, akronimy, skróty, słownik (Terms, Acronyms and Definitions)
+    3.  Odnośniki i powiązane dokumenty (Related documents)
+    4.  Instrukcja obsługi (opcja)
+
+2.  Opis systemu
+
+    1.  Zakres (Scope)
+        1.  Funkcjonalności z zakresie (In Scope Functionality)
+        2.  Poza zakresem (Out of Scope Functionality)
+    2.  Kontekst systemu - Opis systemu, jak system będzie wpasowany w otoczenie, interakcje z innymi systemami
+    3.  
+
+3.  Goals
+
+4.  Functional Requirements
+
+5.  Non-functional requirements
+
+6.  User Stories
+
+7.  Wireframes
+
+8.  Acceptance Criteria
+
+9.  Rules
+
+10. Assumptions and Constraints
+
+RACI? co jeszcze, tabele  - User Stories,
+
+Makiety - opis tabelki do tego,
+
+Lightbox
+
+Test GIT i jak katalog tych dokumentów
+
+------------------------------------------------------------------------

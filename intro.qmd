@@ -1,0 +1,127 @@
+# Introduction
+
+This is a book created from markdown and executable code.
+
+See @knuth84 for additional discussion of literate programming.
+
+```{r}
+1 + 1
+```
+
+## Rozdział kolejny
+
+Test
+
+| Col1 | Col2 | Col3 |
+|------|------|------|
+| 1    | 2    | 3    |
+| 1    | 2    | 3    |
+| 3    | 3    | 3    |
+
+
+## Rozdział drugi
+
+Drugi rozdział
+
+### Trzeci podrozdział
+
+Trzeci itd..
+You can also do this on a per-format basis (if for example you want to provide a higher resolution image for EPUB and a lower resolution image for HTML to reduce download time). For example:
+
+[By "right format", we mean that the data is tidy, and ready to be summarised and graphed.]{.aside}
+
+Quarto Pub is a free publishing service for content created with Quarto. Quarto Pub is ideal for blogs, course or project websites, books, presentations, and personal hobby sites.
+
+It’s important to note that all documents and sites published to Quarto Pub are publicly visible. You should only publish content you wish to share publicly.
+
+
+:::{.callout-caution collapse=true}
+Tu znajduje się zwijana sekcja w boxie callout typu caution
+:::
+
+:::{.callout-tip}
+Altair is based on Vega-Lite, a high-level grammar of interactive graphics
+:::
+
+Właściwe linki i tu przykładowy odnośnik do mojej [[books]] książek
+
+:::{.callout-note}
+A tu znajduje się callout note
+:::
+
+> Cytacik lub wcięcie takie coś...
+
+If you haven’t published to Quarto Pub before, the publish command will prompt you to authenticate. After confirming that you want to publish, your content will be rendered and deployed, and then a browser opened to view your site.
+
+
+A jeśli chcemy umieścić kod to możemy to zrobić przy użyciu takiej dyrektywy jak poniżej. Może być ona też zwijana i rozwijana. To się określa w konigu yaml/
+
+```{r library and data, warning=FALSE, message=FALSE}
+library(tidyverse)
+penguins <- read.csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-07-28/penguins.csv')%>%
+  drop_na()
+head(penguins)
+```
+
+We've removed missing values here, which means that the data has `r nrow(penguins)` rows now[^1]. Ten indeks górny przypis ^1 coś nie chce zabanglać 
+
+If you have an existing Quarto Pub site that you want to publish to, you should manually create a _publish.yml file that looks like the example above, but with the appropriate id and url values for your site.
+
+![Właściwy opis wykresu](graph1.png){.lightbox width=300}
+
+### Podział na dwie kolumny
+
+Poniżej demo jak podzielić przestrzeń na 2 kolumny
+
+::: {layout-ncol=2}
+![Właściwy opis wykresu](graph1.png){.lightbox width=300 #fig-obraz1}
+
+![Właściwy opis wykresu](graph2.png){.lightbox width=300 #fig-obraz2}
+:::
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+The average bill length is `r mean(penguins$bill_length_mm)` mm and the average bill depth is `r mean(penguins$bill_depth_mm)` mm.
+:::
+
+::: {.column width="50%"}
+The data was collected between `r min(penguins$year)` and `r max(penguins$year)`
+:::
+
+::::
+
+
+### Zewnętrzne źródło
+
+::: {#fig-elephant}
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=kZa7SOD5t8o"></iframe>
+
+Elephant
+:::
+
+### Dyrektywa na całą szerokość
+
+:::{.column-page}
+![](elephant.jpg)
+:::
+
+### Dyrektywa na całe okno
+
+::: {.column-screen}
+![A full screen image](elephant.jpg)
+:::
+
+Dodatkowo szerokości
+
+```{r}
+#| column: page
+
+knitr::kable(
+  mtcars[1:6, 1:10]
+)
+```
+
+
