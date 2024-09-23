@@ -87,4 +87,18 @@ Bardziej zaawansowany typ np dodatkowe paragrafy, bloki kodu, listy
 |           |           | - tasty            |
 +-----------+-----------+--------------------+
 
-: Historia operacji.
+## Link do 2 pages 
+[intro](intro.qmd#podzia%C5%82-na-dwie-kolumny)
+
+
+## Funckje jakie oczekuje od końcowego rozwiązania:
+
+- Output do: PDF, DOCX, HTML
+- Github Actions that will build website automatically when I make changes to the files
+- Obsługa diagramów
+- Konfigruacja pełna layoutu np. wygląd, czcionki poprzez theme.csss
+
+- Templates dla
+
+
+

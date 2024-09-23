@@ -10,56 +10,6 @@
     ]
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
-    "section": "",
-    "text": "1.1 Rozdział kolejny\nTest",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
-    ]
-  },
-  {
-    "objectID": "intro.html#rozdział-kolejny",
-    "href": "intro.html#rozdział-kolejny",
-    "title": "1  Introduction",
-    "section": "",
-    "text": "Col1\nCol2\nCol3\n\n\n\n\n1\n2\n3\n\n\n1\n2\n3\n\n\n3\n3\n3",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
-    ]
-  },
-  {
-    "objectID": "intro.html#rozdział-drugi",
-    "href": "intro.html#rozdział-drugi",
-    "title": "1  Introduction",
-    "section": "1.2 Rozdział drugi",
-    "text": "1.2 Rozdział drugi\nDrugi rozdział\n\n1.2.1 Trzeci podrozdział\nTrzeci itd.. You can also do this on a per-format basis (if for example you want to provide a higher resolution image for EPUB and a lower resolution image for HTML to reduce download time). For example:\nBy “right format”, we mean that the data is tidy, and ready to be summarised and graphed.\nQuarto Pub is a free publishing service for content created with Quarto. Quarto Pub is ideal for blogs, course or project websites, books, presentations, and personal hobby sites.\nIt’s important to note that all documents and sites published to Quarto Pub are publicly visible. You should only publish content you wish to share publicly.\n\n\n\n\n\n\nCaution\n\n\n\n\n\nTu znajduje się zwijana sekcja w boxie callout typu caution\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nAltair is based on Vega-Lite, a high-level grammar of interactive graphics\n\n\nWłaściwe linki i tu przykładowy odnośnik do mojej [[books]] książek\n\n\n\n\n\n\nNote\n\n\n\nA tu znajduje się callout note\n\n\n\nCytacik lub wcięcie takie coś…\n\nIf you haven’t published to Quarto Pub before, the publish command will prompt you to authenticate. After confirming that you want to publish, your content will be rendered and deployed, and then a browser opened to view your site.\nA jeśli chcemy umieścić kod to możemy to zrobić przy użyciu takiej dyrektywy jak poniżej. Może być ona też zwijana i rozwijana. To się określa w konigu yaml/\n\n\nCode\nlibrary(tidyverse)\npenguins &lt;- read.csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-07-28/penguins.csv')%&gt;%\n  drop_na()\nhead(penguins)\n\n\n  species    island bill_length_mm bill_depth_mm flipper_length_mm body_mass_g\n1  Adelie Torgersen           39.1          18.7               181        3750\n2  Adelie Torgersen           39.5          17.4               186        3800\n3  Adelie Torgersen           40.3          18.0               195        3250\n4  Adelie Torgersen           36.7          19.3               193        3450\n5  Adelie Torgersen           39.3          20.6               190        3650\n6  Adelie Torgersen           38.9          17.8               181        3625\n     sex year\n1   male 2007\n2 female 2007\n3 female 2007\n4 female 2007\n5   male 2007\n6 female 2007\n\n\nWe’ve removed missing values here, which means that the data has 333 rows now[^1]. Ten indeks górny przypis ^1 coś nie chce zabanglać\nIf you have an existing Quarto Pub site that you want to publish to, you should manually create a _publish.yml file that looks like the example above, but with the appropriate id and url values for your site.\n\n\n\nWłaściwy opis wykresu\n\n\n\n\n1.2.2 Podział na dwie kolumny\nPoniżej demo jak podzielić przestrzeń na 2 kolumny\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 1.1: Właściwy opis wykresu\n\n\n\n\n\n\n\n\n\n\n\nFigure 1.2: Właściwy opis wykresu\n\n\n\n\n\n\n\n\nThe average bill length is 43.9927928 mm and the average bill depth is 17.1648649 mm.\n\nThe data was collected between 2007 and 2009\n\n\n\n\n1.2.3 Zewnętrzne źródło\n\n\n\n\n\n\n\nFigure 1.3: Elephant\n\n\n\n\n\n1.2.4 Dyrektywa na całą szerokość\n\n\n\n\n\n1.2.5 Dyrektywa na całe okno\n\n\n\n\nA full screen image\n\n\n\nDodatkowo szerokości\n\n\nCode\nknitr::kable(\n  mtcars[1:6, 1:10]\n)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\n\n\n\n\nMazda RX4\n21.0\n6\n160\n110\n3.90\n2.620\n16.46\n0\n1\n4\n\n\nMazda RX4 Wag\n21.0\n6\n160\n110\n3.90\n2.875\n17.02\n0\n1\n4\n\n\nDatsun 710\n22.8\n4\n108\n93\n3.85\n2.320\n18.61\n1\n1\n4\n\n\nHornet 4 Drive\n21.4\n6\n258\n110\n3.08\n3.215\n19.44\n1\n0\n3\n\n\nHornet Sportabout\n18.7\n8\n360\n175\n3.15\n3.440\n17.02\n0\n0\n3\n\n\nValiant\n18.1\n6\n225\n105\n2.76\n3.460\n20.22\n1\n0\n3\n\n\n\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
-    ]
-  },
-  {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n\nCode\n1 + 1\n\n\n[1] 2",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Summary</span>"
-    ]
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
-    "crumbs": [
-      "References"
-    ]
-  },
-  {
     "objectID": "index.html#cel-dokumentu",
     "href": "index.html#cel-dokumentu",
     "title": "DSP_DNS_Book",
@@ -104,9 +54,59 @@
     "href": "index.html#odbiorcy-dokumentu",
     "title": "DSP_DNS_Book",
     "section": "Odbiorcy dokumentu",
-    "text": "Odbiorcy dokumentu\n\n\n\n\n\n\n\n\nUwaga\n\n\n\n\n\nTo jest przykładowy callout w sekcji bocznej.\n\n\n\n\n\n\n\n\n\nThis is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files. The NOAA palette and fonts has been added to theme.scss. The webpage will be on the gh-pages branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch\n\n\nThis is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files. The NOAA palette and fonts has been added to theme.scss. The webpage will be on the gh-pages branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch\n\n\nThis is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files. The NOAA palette and fonts has been added to theme.scss. The webpage will be on the gh-pages branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch\n\n\n\n\n\n\nThis is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files. The NOAA palette and fonts has been added to theme.scss. The webpage will be on the gh-pages branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch\n\n\n\nThis is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files. The NOAA palette and fonts has been added to theme.scss. The webpage will be on the gh-pages branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch\n\n\n\nFruit prices\n\n\nfruit\nprice\n\n\n\n\napple\n2.05\n\n\npear\n1.37\n\n\norange\n3.09\n\n\n\n\nGrid tables\nBardziej zaawansowany typ np dodatkowe paragrafy, bloki kodu, listy\n\nHistoria operacji.\n\n\n\n\n\n\n\nFruit\nPrice\nAdvantages\n\n\n\n\nBananas\n$1.34\n\nbuilt-in wrapper\nbright color\n\n\n\nOranges\n$2.10\n\ncures scurvy\ntasty",
+    "text": "Odbiorcy dokumentu\n\n\n\n\n\n\n\n\nUwaga\n\n\n\n\n\nTo jest przykładowy callout w sekcji bocznej.\n\n\n\n\n\n\n\n\n\nThis is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files. The NOAA palette and fonts has been added to theme.scss. The webpage will be on the gh-pages branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch\n\n\nThis is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files. The NOAA palette and fonts has been added to theme.scss. The webpage will be on the gh-pages branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch\n\n\nThis is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files. The NOAA palette and fonts has been added to theme.scss. The webpage will be on the gh-pages branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch\n\n\n\n\n\n\nThis is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files. The NOAA palette and fonts has been added to theme.scss. The webpage will be on the gh-pages branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch\n\n\n\nThis is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files. The NOAA palette and fonts has been added to theme.scss. The webpage will be on the gh-pages branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch\n\n\n\nFruit prices\n\n\nfruit\nprice\n\n\n\n\napple\n2.05\n\n\npear\n1.37\n\n\norange\n3.09\n\n\n\n\nGrid tables\nBardziej zaawansowany typ np dodatkowe paragrafy, bloki kodu, listy\n\n\n\n\n\n\n\n\nFruit\nPrice\nAdvantages\n\n\n\n\nBananas\n$1.34\n\nbuilt-in wrapper\nbright color\n\n\n\nOranges\n$2.10\n\ncures scurvy\ntasty",
     "crumbs": [
       "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#link-do-2-pages",
+    "href": "index.html#link-do-2-pages",
+    "title": "DSP_DNS_Book",
+    "section": "Link do 2 pages",
+    "text": "Link do 2 pages\nintro",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#funckje-jakie-oczekuje-od-końcowego-rozwiązania",
+    "href": "index.html#funckje-jakie-oczekuje-od-końcowego-rozwiązania",
+    "title": "DSP_DNS_Book",
+    "section": "Funckje jakie oczekuje od końcowego rozwiązania:",
+    "text": "Funckje jakie oczekuje od końcowego rozwiązania:\n\nOutput do: PDF, DOCX, HTML\nGithub Actions that will build website automatically when I make changes to the files\nObsługa diagramów\nKonfigruacja pełna layoutu np. wygląd, czcionki poprzez theme.csss\nTemplates dla",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "1.1 Rozdział kolejny\nTest",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#rozdział-kolejny",
+    "href": "intro.html#rozdział-kolejny",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "Col1\nCol2\nCol3\n\n\n\n\n1\n2\n3\n\n\n1\n2\n3\n\n\n3\n3\n3",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#rozdział-drugi",
+    "href": "intro.html#rozdział-drugi",
+    "title": "1  Introduction",
+    "section": "1.2 Rozdział drugi",
+    "text": "1.2 Rozdział drugi\nDrugi rozdział\n\n1.2.1 Trzeci podrozdział\nTrzeci itd.. You can also do this on a per-format basis (if for example you want to provide a higher resolution image for EPUB and a lower resolution image for HTML to reduce download time). For example:\nBy “right format”, we mean that the data is tidy, and ready to be summarised and graphed.\nQuarto Pub is a free publishing service for content created with Quarto. Quarto Pub is ideal for blogs, course or project websites, books, presentations, and personal hobby sites.\nIt’s important to note that all documents and sites published to Quarto Pub are publicly visible. You should only publish content you wish to share publicly.\n\n\n\n\n\n\nCaution\n\n\n\n\n\nTu znajduje się zwijana sekcja w boxie callout typu caution\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nAltair is based on Vega-Lite, a high-level grammar of interactive graphics\n\n\nWłaściwe linki i tu przykładowy odnośnik do mojej [[books]] książek\n\n\n\n\n\n\nNote\n\n\n\nA tu znajduje się callout note\n\n\n\nCytacik lub wcięcie takie coś…\n\nIf you haven’t published to Quarto Pub before, the publish command will prompt you to authenticate. After confirming that you want to publish, your content will be rendered and deployed, and then a browser opened to view your site.\nA jeśli chcemy umieścić kod to możemy to zrobić przy użyciu takiej dyrektywy jak poniżej. Może być ona też zwijana i rozwijana. To się określa w konigu yaml/\n\n\nCode\nlibrary(tidyverse)\npenguins &lt;- read.csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-07-28/penguins.csv')%&gt;%\n  drop_na()\nhead(penguins)\n\n\n  species    island bill_length_mm bill_depth_mm flipper_length_mm body_mass_g\n1  Adelie Torgersen           39.1          18.7               181        3750\n2  Adelie Torgersen           39.5          17.4               186        3800\n3  Adelie Torgersen           40.3          18.0               195        3250\n4  Adelie Torgersen           36.7          19.3               193        3450\n5  Adelie Torgersen           39.3          20.6               190        3650\n6  Adelie Torgersen           38.9          17.8               181        3625\n     sex year\n1   male 2007\n2 female 2007\n3 female 2007\n4 female 2007\n5   male 2007\n6 female 2007\n\n\nWe’ve removed missing values here, which means that the data has 333 rows now[^1]. Ten indeks górny przypis ^1 coś nie chce zabanglać\nIf you have an existing Quarto Pub site that you want to publish to, you should manually create a _publish.yml file that looks like the example above, but with the appropriate id and url values for your site.\n\n\n\nWłaściwy opis wykresu\n\n\n\n\n1.2.2 Podział na dwie kolumny\nPoniżej demo jak podzielić przestrzeń na 2 kolumny\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 1.1: Właściwy opis wykresu\n\n\n\n\n\n\n\n\n\n\n\nFigure 1.2: Właściwy opis wykresu\n\n\n\n\n\n\n\n\nThe average bill length is 43.9927928 mm and the average bill depth is 17.1648649 mm.\n\nThe data was collected between 2007 and 2009\n\n\n\n\n1.2.3 Zewnętrzne źródło\n\n\n\n\n\n\n\nFigure 1.3: Elephant\n\n\n\n\n\n1.2.4 Dyrektywa na całą szerokość\n\n\n\n\n\n1.2.5 Dyrektywa na całe okno\n\n\n\n\nA full screen image\n\n\n\nDodatkowo szerokości\n\n\nCode\nknitr::kable(\n  mtcars[1:6, 1:10]\n)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\n\n\n\n\nMazda RX4\n21.0\n6\n160\n110\n3.90\n2.620\n16.46\n0\n1\n4\n\n\nMazda RX4 Wag\n21.0\n6\n160\n110\n3.90\n2.875\n17.02\n0\n1\n4\n\n\nDatsun 710\n22.8\n4\n108\n93\n3.85\n2.320\n18.61\n1\n1\n4\n\n\nHornet 4 Drive\n21.4\n6\n258\n110\n3.08\n3.215\n19.44\n1\n0\n3\n\n\nHornet Sportabout\n18.7\n8\n360\n175\n3.15\n3.440\n17.02\n0\n0\n3\n\n\nValiant\n18.1\n6\n225\n105\n2.76\n3.460\n20.22\n1\n0\n3\n\n\n\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
   },
   {
@@ -117,6 +117,26 @@
     "text": "Software Requirements Specification\n\nMetryka\n\nTytuł\nLogo/ Unikalny numer / Wersja dokumentu (wersja z Github?)\nData utworzenia / Data modyfikacji\nAuthors (Tabela: Name, Role, Department)\nHistoria dokumentu (Tabela: Data, Wersja, Revision Description, Revision Author)\nApprovals (może na końcu tabela: Approval date, Approved Version, Approver Role, Approver)\n\nIntroduction\n\nCel projektu (purpose of project)\nDefinicje, akronimy, skróty, słownik (Terms, Acronyms and Definitions)\nOdnośniki i powiązane dokumenty (Related documents)\nInstrukcja obsługi (opcja)\n\nOpis systemu\n\nZakres (Scope)\n\nFunkcjonalności z zakresie (In Scope Functionality)\nPoza zakresem (Out of Scope Functionality)\n\nKontekst systemu - Opis systemu, jak system będzie wpasowany w otoczenie, interakcje z innymi systemami\n\n\nGoals\nFunctional Requirements\nNon-functional requirements\nUser Stories\nWireframes\nAcceptance Criteria\nRules\nAssumptions and Constraints\n\nRACI? co jeszcze, tabele - User Stories,\nMakiety - opis tabelki do tego,\nLightbox\nTest GIT i jak katalog tych dokumentów",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Document - Sample 1</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "3  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n\nCode\n1 + 1\n\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
     ]
   }
 ]
