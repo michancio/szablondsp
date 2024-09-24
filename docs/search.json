@@ -120,13 +120,43 @@
     ]
   },
   {
+    "objectID": "tables.html",
+    "href": "tables.html",
+    "title": "3  Tables",
+    "section": "",
+    "text": "3.1 Tables\nPoniżej znajdują się przykładowe tabele. Zerknij",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Tables</span>"
+    ]
+  },
+  {
+    "objectID": "tables.html#tables",
+    "href": "tables.html#tables",
+    "title": "3  Tables",
+    "section": "",
+    "text": "3.1.1 Markdown Tables\nTen tekst jest formatowany przez CSS\n\n\n\n\n\n\nDefault\nLeft\nRight\nCenter\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1\n\n\n\n\n\nTable 3.1: My Caption\n\n\n\nWhen reviewing a document you often want to provide inline comments with suggested revisions. This is possible in Quarto using HTML comments (which are ignored by all output formats). Visual mode includes a command for inserting HTML comments as well as special highlighting  treatment to easily parse out editing comments from surrounding text.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Tables</span>"
+    ]
+  },
+  {
+    "objectID": "tables.html#see-tbl-letters",
+    "href": "tables.html#see-tbl-letters",
+    "title": "3  Tables",
+    "section": "3.2 See Table 3.1",
+    "text": "3.2 See Table 3.1",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Tables</span>"
+    ]
+  },
+  {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "3  Summary",
+    "title": "4  Summary",
     "section": "",
     "text": "In summary, this book has no content whatsoever.\n\n\nCode\n1 + 1\n\n\n[1] 2",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Summary</span>"
     ]
   },
   {

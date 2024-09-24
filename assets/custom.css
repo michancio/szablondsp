@@ -1,0 +1,10 @@
+.my-table th {
+  background-color: #4CAF50; /* Zielone tło nagłówka */
+  color: white;
+}
+
+.my-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #007BFF; /* Niebieski kolor tekstu */
+}

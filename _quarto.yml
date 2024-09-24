@@ -2,29 +2,32 @@ project:
   type: book
   output-dir: docs
 
+
 book:
   title: "DSP_DNS_Book"
   author: "Michał Lesiowski"
   cover-image: cover.png
-  favicon: "images/altair-hist.png"
-  date: "13.09.2024"
+  favicon: "images/favicon.png"
+  date: "2024-09-23"
   sharing: [twitter, facebook]
   downloads: [pdf, docx, epub]
   search: true
+  version: "1.0.0"
   
   chapters:
     - index.qmd
     - intro.qmd
     - document.qmd
+    - tables.qmd
     - summary.qmd
     - references.qmd
     
   page-footer: 
     right: "This page is built with [Quarto](https://quarto.org/)"
-    left: "&copy; CC-1.0"
+    left: "Wersja projektu: {{< meta book.version >}}"
 
   sidebar:
-    logo: "https://raw.githubusercontent.com/nmfs-opensci/assets/main/logo/nmfs-opensci-logo3.png"
+    logo: "images/LogoSRS3.png"
     pinned: true
     tools: 
       - icon: globe
@@ -42,11 +45,15 @@ format:
     theme: [cosmo, assets/theme.scss]
     code-fold: true
     toc: true
+    tbl-cap-location: bottom
+    css: custom.css
   pdf:
     documentclass: scrreprt
+    tbl-cap-location: bottom
   docx: 
     toc: true
     output-file: "DNS_DSP.docx"
+    tbl-cap-location: bottom
 
 editor: visual
 

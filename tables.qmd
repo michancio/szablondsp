@@ -1,0 +1,26 @@
+---
+title: "Tables"
+---
+
+
+## Tables
+
+Poniżej znajdują się przykładowe tabele. Zerknij
+
+### Markdown Tables
+
+
+Ten tekst jest formatowany przez CSS
+
+
+| Default | Left | Right | Center |
+|---------|:-----|------:|:------:|
+| 12      | 12   |    12 |   12   |
+| 123     | 123  |   123 |  123   |
+| 1       | 1    |     1 |   1    |
+
+: My Caption {#tbl-letters} {.striped .hover} 
+
+When reviewing a document you often want to provide inline comments with suggested revisions. This is possible in Quarto using HTML comments (which are ignored by all output formats). Visual mode includes a command for inserting HTML comments as well as special highlighting <!--# I to jest komentarz --> treatment to easily parse out editing <!--# czcz -->comments from surrounding text.
+
+## See @tbl-letters
