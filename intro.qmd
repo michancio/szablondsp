@@ -43,7 +43,7 @@ See @fig-obraz2 for an illustration
 
 ## Rozdział kolejny
 
-Test
+Test tabeli 1 2 3
 
 | Col1 | Col2 | Col3 |
 |------|------|------|
