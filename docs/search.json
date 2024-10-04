@@ -184,7 +184,7 @@
     "href": "tables.html#see",
     "title": "3  Tables",
     "section": "3.2 See",
-    "text": "3.2 See\nZobacz tu cross reference -&gt; Table 3.1\nHistoria zmian\n\n\n\n\n\n\n\n\n\n\n\n\n\nData zmiany\nWersja dokumentu\nKto zmienił\nOpis zmiany\n\n\n\n\n08.11.2023\n1.0\nMichał Lesiowski\nUtworzenie dokumentu\n\n\n01.03.2024\n1.1\nMichał Lesiowski\nAktualizacja - słownik konfigurator, podgląd zgłoszenia (przycisk edycja), powiadomienia o akcji\n\n\n06.05.2024\n1.2\nMichał Lesiowski\nAktualizacja makiet, Baza zgłoszeń mechanizm edycja/zapisz, dodanie szablonów email do wysyłki informacji z podglądu zgłoszenia - raport wstępny, raport końcowy.\n\n\n\n\n\nTable 3.2: Historia wersji dokumentu\n\n\n\n\nPowyższa tabela mogłaby zaciągać informacje z Commit w te miejsca oraz numery wersji",
+    "text": "3.2 See\nZobacz tu cross reference -&gt; Table 3.1\nHistoria zmian\n\n\n\n\n\n\n\n\n\n\n\n\n\nData zmiany\nWersja dokumentu\nKto zmienił\nOpis zmiany\n\n\n\n\n08.11.2023\n1.0\nJan Kowalski\nUtworzenie dokumentu\n\n\n01.03.2024\n1.1\nJan Kowalski\nAktualizacja - słownik konfigurator, podgląd zgłoszenia (przycisk edycja), powiadomienia o akcji\n\n\n06.05.2024\n1.2\nJan Kowalski\nAktualizacja makiet, Baza zgłoszeń mechanizm edycja/zapisz, dodanie szablonów email do wysyłki informacji z podglądu zgłoszenia - raport wstępny, raport końcowy.\n\n\n\n\n\nTable 3.2: Historia wersji dokumentu\n\n\n\n\nPowyższa tabela mogłaby zaciągać informacje z Commit w te miejsca oraz numery wersji",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Tables</span>"
     ]
