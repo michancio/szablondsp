@@ -10,7 +10,7 @@ To learn more about Quarto books visit <https://quarto.org/docs/books>.
 ```
 
 
-Test test 123
+Test test 123 i inny test
 
 # Wprowadzenie
 
@@ -25,15 +25,12 @@ Test test 123
 ## Odbiorcy dokumentu
 
 
-::: {.aside}
-
+::: {.aside }
 ::: {.callout-note collapse=true}
 # Uwaga
 To jest przykładowy callout w sekcji bocznej.
 :::
-
 :::
-
 
 
 ::: {layout-ncol=3}
@@ -51,7 +48,7 @@ This is a template for a simple Quarto book output to html, PDF or docx format. 
 :::: {.columns}
 
 ::: {.column width="30%"}
-This is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files. The NOAA palette and fonts has been added to theme.scss. The webpage will be on the gh-pages branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch
+This is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files.
 :::
 
 ::: {.column width="10%"}
@@ -59,8 +56,7 @@ This is a template for a simple Quarto book output to html, PDF or docx format. 
 :::
 
 ::: {.column width="60%"}
-This is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files. The NOAA palette and fonts has been added to theme.scss. The webpage will be on the gh-pages branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch
-:::
+This is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files. 
 
 ::::
 

@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "DSP_DNS_Book",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\nCode\n1 + 1\n\n\n[1] 2\n\n\nCode\n13 / 3\n\n\n[1] 4.333333\nTest test 123",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\nCode\n1 + 1\n\n\n[1] 2\n\n\nCode\n13 / 3\n\n\n[1] 4.333333\nTest test 123 i inny test",
     "crumbs": [
       "Preface"
     ]
@@ -54,7 +54,7 @@
     "href": "index.html#odbiorcy-dokumentu",
     "title": "DSP_DNS_Book",
     "section": "Odbiorcy dokumentu",
-    "text": "Odbiorcy dokumentu\n\n\n\n\n\n\n\n\nUwaga\n\n\n\n\n\nTo jest przykładowy callout w sekcji bocznej.\n\n\n\n\n\n\n\n\n\nThis is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files. The NOAA palette and fonts has been added to theme.scss. The webpage will be on the gh-pages branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch\n\n\nThis is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files. The NOAA palette and fonts has been added to theme.scss. The webpage will be on the gh-pages branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch\n\n\nThis is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files. The NOAA palette and fonts has been added to theme.scss. The webpage will be on the gh-pages branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch\n\n\n\n\n\n\nThis is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files. The NOAA palette and fonts has been added to theme.scss. The webpage will be on the gh-pages branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch\n\n\n\nThis is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files. The NOAA palette and fonts has been added to theme.scss. The webpage will be on the gh-pages branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch\n\n\n\nFruit prices\n\n\nfruit\nprice\n\n\n\n\napple\n2.05\n\n\npear\n1.37\n\n\norange\n3.09\n\n\n\n\nGrid tables\nBardziej zaawansowany typ np dodatkowe paragrafy, bloki kodu, listy\n\n\n\n\n\n\n\n\nFruit\nPrice\nAdvantages\n\n\n\n\nBananas\n$1.34\n\nbuilt-in wrapper\nbright color\n\n\n\nOranges\n$2.10\n\ncures scurvy\ntasty",
+    "text": "Odbiorcy dokumentu\n\n\n\n\n\n\n\n\nUwaga\n\n\n\n\n\nTo jest przykładowy callout w sekcji bocznej.\n\n\n\n\n\n\n\n\n\nThis is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files. The NOAA palette and fonts has been added to theme.scss. The webpage will be on the gh-pages branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch\n\n\nThis is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files. The NOAA palette and fonts has been added to theme.scss. The webpage will be on the gh-pages branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch\n\n\nThis is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files. The NOAA palette and fonts has been added to theme.scss. The webpage will be on the gh-pages branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch\n\n\n\n\n\n\nThis is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files.\n\n\n\nThis is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files.\n\nFruit prices\n\n\nfruit\nprice\n\n\n\n\napple\n2.05\n\n\npear\n1.37\n\n\norange\n3.09\n\n\n\nGrid tables\nBardziej zaawansowany typ np dodatkowe paragrafy, bloki kodu, listy\n\n\n\n\n\n\n\n\nFruit\nPrice\nAdvantages\n\n\n\n\nBananas\n$1.34\n\nbuilt-in wrapper\nbright color\n\n\n\nOranges\n$2.10\n\ncures scurvy\ntasty\n\n\n\n\n\nLink do 2 pages\nintro\n\nFunckje jakie oczekuje od końcowego rozwiązania:\n\nOutput do: PDF, DOCX, HTML\nGithub Actions that will build website automatically when I make changes to the files\nObsługa diagramów\nKonfigruacja pełna layoutu np. wygląd, czcionki poprzez theme.csss\nTemplates dla",
     "crumbs": [
       "Preface"
     ]
@@ -84,7 +84,27 @@
     "href": "intro.html",
     "title": "1  Introduction",
     "section": "",
-    "text": "1.1 Rozdział kolejny\nTest",
+    "text": "1.1 Interactivity Test\nHow many cars?",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#test-cross-reference",
+    "href": "intro.html#test-cross-reference",
+    "title": "1  Introduction",
+    "section": "1.2 Test cross reference",
+    "text": "1.2 Test cross reference\nSee Figure 1.2 for an illustration\nSkocz do koniec",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#test-list-of-figures",
+    "href": "intro.html#test-list-of-figures",
+    "title": "1  Introduction",
+    "section": "1.3 Test list of figures",
+    "text": "1.3 Test list of figures",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
@@ -93,8 +113,18 @@
     "objectID": "intro.html#rozdział-kolejny",
     "href": "intro.html#rozdział-kolejny",
     "title": "1  Introduction",
-    "section": "",
-    "text": "Col1\nCol2\nCol3\n\n\n\n\n1\n2\n3\n\n\n1\n2\n3\n\n\n3\n3\n3",
+    "section": "1.4 Rozdział kolejny",
+    "text": "1.4 Rozdział kolejny\nTest\n\n\n\nCol1\nCol2\nCol3\n\n\n\n\n1\n2\n3\n\n\n1\n2\n3\n\n\n3\n3\n3",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#test-sekcji",
+    "href": "intro.html#test-sekcji",
+    "title": "1  Introduction",
+    "section": "1.5 Test sekcji",
+    "text": "1.5 Test sekcji\nPoniżej RAW content z HTML",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
@@ -103,8 +133,18 @@
     "objectID": "intro.html#rozdział-drugi",
     "href": "intro.html#rozdział-drugi",
     "title": "1  Introduction",
-    "section": "1.2 Rozdział drugi",
-    "text": "1.2 Rozdział drugi\nDrugi rozdział\n\n1.2.1 Trzeci podrozdział\nTrzeci itd.. You can also do this on a per-format basis (if for example you want to provide a higher resolution image for EPUB and a lower resolution image for HTML to reduce download time). For example:\nBy “right format”, we mean that the data is tidy, and ready to be summarised and graphed.\nQuarto Pub is a free publishing service for content created with Quarto. Quarto Pub is ideal for blogs, course or project websites, books, presentations, and personal hobby sites.\nIt’s important to note that all documents and sites published to Quarto Pub are publicly visible. You should only publish content you wish to share publicly.\n\n\n\n\n\n\nCaution\n\n\n\n\n\nTu znajduje się zwijana sekcja w boxie callout typu caution\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nAltair is based on Vega-Lite, a high-level grammar of interactive graphics\n\n\nWłaściwe linki i tu przykładowy odnośnik do mojej [[books]] książek\n\n\n\n\n\n\nNote\n\n\n\nA tu znajduje się callout note\n\n\n\nCytacik lub wcięcie takie coś…\n\nIf you haven’t published to Quarto Pub before, the publish command will prompt you to authenticate. After confirming that you want to publish, your content will be rendered and deployed, and then a browser opened to view your site.\nA jeśli chcemy umieścić kod to możemy to zrobić przy użyciu takiej dyrektywy jak poniżej. Może być ona też zwijana i rozwijana. To się określa w konigu yaml/\n\n\nCode\nlibrary(tidyverse)\npenguins &lt;- read.csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-07-28/penguins.csv')%&gt;%\n  drop_na()\nhead(penguins)\n\n\n  species    island bill_length_mm bill_depth_mm flipper_length_mm body_mass_g\n1  Adelie Torgersen           39.1          18.7               181        3750\n2  Adelie Torgersen           39.5          17.4               186        3800\n3  Adelie Torgersen           40.3          18.0               195        3250\n4  Adelie Torgersen           36.7          19.3               193        3450\n5  Adelie Torgersen           39.3          20.6               190        3650\n6  Adelie Torgersen           38.9          17.8               181        3625\n     sex year\n1   male 2007\n2 female 2007\n3 female 2007\n4 female 2007\n5   male 2007\n6 female 2007\n\n\nWe’ve removed missing values here, which means that the data has 333 rows now[^1]. Ten indeks górny przypis ^1 coś nie chce zabanglać\nIf you have an existing Quarto Pub site that you want to publish to, you should manually create a _publish.yml file that looks like the example above, but with the appropriate id and url values for your site.\n\n\n\nWłaściwy opis wykresu\n\n\n\n\n1.2.2 Podział na dwie kolumny\nPoniżej demo jak podzielić przestrzeń na 2 kolumny\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 1.1: Właściwy opis wykresu\n\n\n\n\n\n\n\n\n\n\n\nFigure 1.2: Właściwy opis wykresu\n\n\n\n\n\n\n\n\nThe average bill length is 43.9927928 mm and the average bill depth is 17.1648649 mm.\n\nThe data was collected between 2007 and 2009\n\n\n\n\n1.2.3 Zewnętrzne źródło\n\n\n\n\n\n\n\nFigure 1.3: Elephant\n\n\n\n\n\n1.2.4 Dyrektywa na całą szerokość\n\n\n\n\n\n1.2.5 Dyrektywa na całe okno\n\n\n\n\nA full screen image\n\n\n\nDodatkowo szerokości\n\n\nCode\nknitr::kable(\n  mtcars[1:6, 1:10]\n)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\n\n\n\n\nMazda RX4\n21.0\n6\n160\n110\n3.90\n2.620\n16.46\n0\n1\n4\n\n\nMazda RX4 Wag\n21.0\n6\n160\n110\n3.90\n2.875\n17.02\n0\n1\n4\n\n\nDatsun 710\n22.8\n4\n108\n93\n3.85\n2.320\n18.61\n1\n1\n4\n\n\nHornet 4 Drive\n21.4\n6\n258\n110\n3.08\n3.215\n19.44\n1\n0\n3\n\n\nHornet Sportabout\n18.7\n8\n360\n175\n3.15\n3.440\n17.02\n0\n0\n3\n\n\nValiant\n18.1\n6\n225\n105\n2.76\n3.460\n20.22\n1\n0\n3\n\n\n\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "section": "1.6 Rozdział drugi",
+    "text": "1.6 Rozdział drugi\nDrugi rozdział\n\n1.6.1 Trzeci podrozdział\nTrzeci itd.. You can also do this on a per-format basis (if for example you want to provide a higher resolution image for EPUB and a lower resolution image for HTML to reduce download time). For example:\nBy “right format”, we mean that the data is tidy, and ready to be summarised and graphed.\nQuarto Pub is a free publishing service for content created with Quarto. Quarto Pub is ideal for blogs, course or project websites, books, presentations, and personal hobby sites.\nIt’s important to note that all documents and sites published to Quarto Pub are publicly visible. You should only publish content you wish to share publicly.\n\n\n\n\n\n\nCaution\n\n\n\n\n\nTu znajduje się zwijana sekcja w boxie callout typu caution\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nAltair is based on Vega-Lite, a high-level grammar of interactive graphics\n\n\nWłaściwe linki i tu przykładowy odnośnik do mojej [[books]] książek\n\n\n\n\n\n\nNote\n\n\n\nA tu znajduje się callout note\n\n\n\nCytacik lub wcięcie takie coś…\n\nIf you haven’t published to Quarto Pub before, the publish command will prompt you to authenticate. After confirming that you want to publish, your content will be rendered and deployed, and then a browser opened to view your site.\nA jeśli chcemy umieścić kod to możemy to zrobić przy użyciu takiej dyrektywy jak poniżej. Może być ona też zwijana i rozwijana. To się określa w konigu yaml/\n\n\nCode\nlibrary(tidyverse)\npenguins &lt;- read.csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-07-28/penguins.csv')%&gt;%\n  drop_na()\nhead(penguins)\n\n\n  species    island bill_length_mm bill_depth_mm flipper_length_mm body_mass_g\n1  Adelie Torgersen           39.1          18.7               181        3750\n2  Adelie Torgersen           39.5          17.4               186        3800\n3  Adelie Torgersen           40.3          18.0               195        3250\n4  Adelie Torgersen           36.7          19.3               193        3450\n5  Adelie Torgersen           39.3          20.6               190        3650\n6  Adelie Torgersen           38.9          17.8               181        3625\n     sex year\n1   male 2007\n2 female 2007\n3 female 2007\n4 female 2007\n5   male 2007\n6 female 2007\n\n\nWe’ve removed missing values here, which means that the data has 333 rows now[^1]. Ten indeks górny przypis ^1 coś nie chce zabanglać\nIf you have an existing Quarto Pub site that you want to publish to, you should manually create a _publish.yml file that looks like the example above, but with the appropriate id and url values for your site.\n\n\n\nWłaściwy opis wykresu\n\n\n\n\n1.6.2 Podział na dwie kolumny\nPoniżej demo jak podzielić przestrzeń na 2 kolumny\n\n\n\n\n\n\n\n\n\n\n\n\nFigure 1.1: Właściwy opis wykresu\n\n\n\n\n\n\n\n\n\n\n\nFigure 1.2: Właściwy opis wykresu\n\n\n\n\n\n\n\n\nThe average bill length is 43.9927928 mm and the average bill depth is 17.1648649 mm.\n\nThe data was collected between 2007 and 2009\n\n\n\n\n1.6.3 Zewnętrzne źródło\n\n\n\n\n\n\n\nFigure 1.3: Elephant\n\n\n\n\n\n1.6.4 Dyrektywa na całą szerokość\n\n\n\n\n\n1.6.5 Dyrektywa na całe okno\n\n\n\n\nA full screen image\n\n\n\nDodatkowo szerokości\n\n\nCode\nknitr::kable(\n  mtcars[1:6, 1:10]\n)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nmpg\ncyl\ndisp\nhp\ndrat\nwt\nqsec\nvs\nam\ngear\n\n\n\n\nMazda RX4\n21.0\n6\n160\n110\n3.90\n2.620\n16.46\n0\n1\n4\n\n\nMazda RX4 Wag\n21.0\n6\n160\n110\n3.90\n2.875\n17.02\n0\n1\n4\n\n\nDatsun 710\n22.8\n4\n108\n93\n3.85\n2.320\n18.61\n1\n1\n4\n\n\nHornet 4 Drive\n21.4\n6\n258\n110\n3.08\n3.215\n19.44\n1\n0\n3\n\n\nHornet Sportabout\n18.7\n8\n360\n175\n3.15\n3.440\n17.02\n0\n0\n3\n\n\nValiant\n18.1\n6\n225\n105\n2.76\n3.460\n20.22\n1\n0\n3",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#koniec",
+    "href": "intro.html#koniec",
+    "title": "1  Introduction",
+    "section": "1.7 Koniec dokumentu",
+    "text": "1.7 Koniec dokumentu\n\n1.7.1 Koniec strony\nPrzed przerwą\n\nUmieszczamy informacje takie a takie\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
     ]
@@ -134,29 +174,159 @@
     "href": "tables.html#tables",
     "title": "3  Tables",
     "section": "",
-    "text": "3.1.1 Markdown Tables\nTen tekst jest formatowany przez CSS\n\n\n\n\n\n\nDefault\nLeft\nRight\nCenter\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1\n\n\n\n\n\nTable 3.1: My Caption\n\n\n\nWhen reviewing a document you often want to provide inline comments with suggested revisions. This is possible in Quarto using HTML comments (which are ignored by all output formats). Visual mode includes a command for inserting HTML comments as well as special highlighting  treatment to easily parse out editing comments from surrounding text.",
+    "text": "3.1.1 Markdown Tables\n\nTen tekst jest formatowany przez CSS i jest\n\n\n\n\n\n\n\n\nDefault\nLeft\nRight\nCenter\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1\n\n\n\n\n\nTable 3.1: My Caption\n\n\n\n\nWhen reviewing a document you often want to provide inline comments with suggested revisions. This is possible in Quarto using HTML comments (which are ignored by all output formats). Visual mode includes a command for inserting HTML comments as well as special highlighting  treatment to easily parse out editing comments from surrounding text. No text.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Tables</span>"
     ]
   },
   {
-    "objectID": "tables.html#see-tbl-letters",
-    "href": "tables.html#see-tbl-letters",
+    "objectID": "tables.html#see",
+    "href": "tables.html#see",
     "title": "3  Tables",
-    "section": "3.2 See Table 3.1",
-    "text": "3.2 See Table 3.1",
+    "section": "3.2 See",
+    "text": "3.2 See\nZobacz tu cross reference -&gt; Table 3.1\nHistoria zmian\n\n\n\n\n\n\n\n\n\n\n\n\n\nData zmiany\nWersja dokumentu\nKto zmienił\nOpis zmiany\n\n\n\n\n08.11.2023\n1.0\nMichał Lesiowski\nUtworzenie dokumentu\n\n\n01.03.2024\n1.1\nMichał Lesiowski\nAktualizacja - słownik konfigurator, podgląd zgłoszenia (przycisk edycja), powiadomienia o akcji\n\n\n06.05.2024\n1.2\nMichał Lesiowski\nAktualizacja makiet, Baza zgłoszeń mechanizm edycja/zapisz, dodanie szablonów email do wysyłki informacji z podglądu zgłoszenia - raport wstępny, raport końcowy.\n\n\n\n\n\nTable 3.2: Historia wersji dokumentu\n\n\n\n\nPowyższa tabela mogłaby zaciągać informacje z Commit w te miejsca oraz numery wersji",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Tables</span>"
+    ]
+  },
+  {
+    "objectID": "galery.html",
+    "href": "galery.html",
+    "title": "4  Galery",
+    "section": "",
+    "text": "{#fig-elephant}",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Galery</span>"
+    ]
+  },
+  {
+    "objectID": "lightbox.html",
+    "href": "lightbox.html",
+    "title": "5  Example Lightbox Document",
+    "section": "",
+    "text": "5.1 Chilmark\nHere is a simple image with a description. This also overrides the description position and places it to the left of the image.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Example Lightbox Document</span>"
+    ]
+  },
+  {
+    "objectID": "lightbox.html#chilmark",
+    "href": "lightbox.html#chilmark",
+    "title": "5  Example Lightbox Document",
+    "section": "",
+    "text": "Beach in Chilmark",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Example Lightbox Document</span>"
+    ]
+  },
+  {
+    "objectID": "lightbox.html#elsewhere",
+    "href": "lightbox.html#elsewhere",
+    "title": "5  Example Lightbox Document",
+    "section": "5.2 Elsewhere",
+    "text": "5.2 Elsewhere\nThe below demonstrates placing more than one image in a gallery. Note the usage of the layout-ncol which arranges the images on the page side by date. Adding the group attribute to the markdown images places the images in a gallery grouped together based upon the group name provided.\n\n\n\n\n\n\n\n\n\nAquinnah\n\n\n\n\n\n\n\nOak Bluffs\n\n\n\n\n\n\n\n\n\nVineyard lighthouse",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Example Lightbox Document</span>"
+    ]
+  },
+  {
+    "objectID": "lightbox.html#with-computation-code-chunks",
+    "href": "lightbox.html#with-computation-code-chunks",
+    "title": "5  Example Lightbox Document",
+    "section": "5.3 With computation code chunks",
+    "text": "5.3 With computation code chunks\nOptions for lightbox can be passed using chunk options.\n\n\nCode\nplot(1:10, rnorm(10))\n\n\n\n\n\nSimple demo R plot\n\n\n\n\n\n\nCode\nplot(cars)\n\n\n\n\n\nPlot about cars data\n\n\n\n\nIt is possible to create several plots, and group them in a lightbox gallery. Use list in YAML for options when you have several plots, on per plot.\n\n\nCode\nplot(mtcars)\n\n\n\n\n\nCaption for first plot\n\n\n\n\nCode\nplot(cars)\n\n\n\n\n\nCaption for second plot\n\n\n\n\nWhen lightbox: auto in main YAML config, you can opt-out lightbox on a plot by setting lightbox: false\n\n\nCode\nplot(mtcars)\n\n\n\n\n\nmtcars",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Example Lightbox Document</span>"
+    ]
+  },
+  {
+    "objectID": "lightbox.html#credits",
+    "href": "lightbox.html#credits",
+    "title": "5  Example Lightbox Document",
+    "section": "5.4 Credits",
+    "text": "5.4 Credits\nThe images in this example were used under the Unsplash license, view originals below:\n\nChilmark Beach\nAquinnah\nGingerbread House\nEdgartown Light\nEdgartown Sailboat\n\n\n\n\n\nChilmark has a reputation as having some of the best beaches on Martha’s Vineyard. Chilmark beaches are resident only in the summer, so be sure to have your proof of residency ready if you’d like to visit one of these special places. credit: Chilmark Beach\n\n\nThe waves break off the coast of Aquinnah on a beautiful summer day.\n\n\nOak Bluffs is famous for its Gingerbread cottages, busy town center, and party like atmosphere.\n\n\nThe Edgartown Lighthouse is a short walk from downtown and has beautiful views over the entrance to Edgartown Harbor.\n\n\nThis is 1 to 10 plot\n\n\nWe see our cars data above\n\n\nThis is the decription for first graph\n\n\nThis is the decription for second graph",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Example Lightbox Document</span>"
     ]
   },
   {
     "objectID": "summary.html",
     "href": "summary.html",
-    "title": "4  Summary",
+    "title": "6  _Przykłady elementów",
     "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n\nCode\n1 + 1\n\n\n[1] 2",
+    "text": "6.1 Formatowanie\nTu jest verbatim code\n&lt;div style=\"margin-top: 30px;\"&gt;&lt;/div&gt;\n&lt;mark&gt; To jest zmarkowany tekst &lt;/mark&gt;",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>_Przykłady elementów</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html#formatowanie",
+    "href": "summary.html#formatowanie",
+    "title": "6  _Przykłady elementów",
+    "section": "",
+    "text": "Verbatim code \n\n\n\n\n\n Term definition \n\n\nTerm 1\n\ndefinicja terminu\n\n\n\n\n Block quotes \n\n\n\nTo jest block quotes\n\n\n\n HTML własny np. odstępy \n\n\n\n\n Podświetlenie tekstu mark\n\n\n\n\n Ukrycie elementu",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>_Przykłady elementów</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html#callouts",
+    "href": "summary.html#callouts",
+    "title": "6  _Przykłady elementów",
+    "section": "6.2 Callouts",
+    "text": "6.2 Callouts\n\n Podstawowe callouts \n\n\n\n\n\n\n\nCaution\n\n\n\n\n\nTu znajduje się zwijana sekcja w boxie callout typu caution\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nAltair is based on Vega-Lite, a high-level grammar of interactive graphics\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nA tu znajduje się callout note\n\n\n\n\n\n\n\n\n\nThis is Important\n\n\n\nDanger, callouts will really improve your writing.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>_Przykłady elementów</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html#kolumny",
+    "href": "summary.html#kolumny",
+    "title": "6  _Przykłady elementów",
+    "section": "6.3 Kolumny",
+    "text": "6.3 Kolumny\n\n Trzy kolumny \n\n\n\n\n\n\n\nThis is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files.\n\n\nThis is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files.\n\n\nThis is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files.\n\n\n\n\n\n\n Dwie kolumny \n\n\n\nThis is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files.\n\n\n\nThis is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>_Przykłady elementów</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html#grafiki",
+    "href": "summary.html#grafiki",
+    "title": "6  _Przykłady elementów",
+    "section": "6.4 Grafiki",
+    "text": "6.4 Grafiki\n\n Lightbox \n\n\n\n\nBeach in Chilmark\n\n\n\n\n\n Lightbox grupa \n\nThe below demonstrates placing more than one image in a gallery. Note the usage of the layout-ncol which arranges the images on the page side by date. Adding the group attribute to the markdown images places the images in a gallery grouped together based upon the group name provided.\n\n\n\n\n\n\n\n\n\nAquinnah\n\n\n\n\n\n\n\nOak Bluffs\n\n\n\n\n\n\n\n\n\nVineyard lighthouse\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMakieta 1\n\n\n\n\n\n\n\nMakieta 2\n\n\n\n\n\n\n\nMakieta 3",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>_Przykłady elementów</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html#asides",
+    "href": "summary.html#asides",
+    "title": "6  _Przykłady elementów",
+    "section": "6.5 Asides",
+    "text": "6.5 Asides\n\n Aside boczne \n\nBy “right format”, we mean that the data is tidy, and ready to be summarised and graphed.\n\n\n\n Aside boczne callout \n\n\n\n\n\n\n\n\n\nUwaga\n\n\n\n\n\nTo jest przykładowy callout w sekcji bocznej.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>_Przykłady elementów</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html#tabs",
+    "href": "summary.html#tabs",
+    "title": "6  _Przykłady elementów",
+    "section": "6.6 Tabs",
+    "text": "6.6 Tabs\n\n Tabsy \n\n\nPlotsData\n\n\n\n\n\nIf you want to allow users to toggle between multiple visualizations, use a tabset (div with class .panel-tabset). Include a heading (e.g. ##) for each tab in the tabset.\nFor example, here are a plot and data each presented in their own tab.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>_Przykłady elementów</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html#glossary",
+    "href": "summary.html#glossary",
+    "title": "6  _Przykłady elementów",
+    "section": "6.7 Glossary",
+    "text": "6.7 Glossary\nTest słowa w słowniku, który jest tu zlikowanyt to We want to define the term data frame in the glossary\n\na w samym słowniku glossary.qmd definiujesz pojęcie:\n\n\n\n\n\nChilmark has a reputation as having some of the best beaches on Martha’s Vineyard. Chilmark beaches are resident only in the summer, so be sure to have your proof of residency ready if you’d like to visit one of these special places. credit: Chilmark Beach\n\n\nThe waves break off the coast of Aquinnah on a beautiful summer day.\n\n\nOak Bluffs is famous for its Gingerbread cottages, busy town center, and party like atmosphere.\n\n\nThe Edgartown Lighthouse is a short walk from downtown and has beautiful views over the entrance to Edgartown Harbor.\n\n\nMakieta 1 - główny formularz tabeli z wnioskami do zarządzania elementami w systemie.\n\n\nMakieta 2 - podgląd wniosku dotyczący wniosku stref\n\n\nMakieta 3",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>_Przykłady elementów</span>"
     ]
   },
   {
@@ -167,6 +337,17 @@
     "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
     "crumbs": [
       "References"
+    ]
+  },
+  {
+    "objectID": "glossary.html",
+    "href": "glossary.html",
+    "title": "Appendix A — Glossary",
+    "section": "",
+    "text": "Console\n\nComing soon.\n\nData frame\n\nFor our purposes, data frames are just R’s term for data set or data table. Data frames are made up of columns (variables) and rows (observations). In R, all columns of a data frame must have the same length.\n\nFunctions\n\nComing soon.\n\n\n\nArguments: Arguments always go inside the parentheses of a function and give the function the information it needs to give us the result we want.\nPass: In programming lingo, you pass a value to a function argument. For example, in the funtion call seq(from = 2, to = 100, by = 2) we could say that we passed a value of 2 to the from argument, we passed a value of 100 to the to argument, and we passed a value of 2 to the by argument.\nReturns: Instead of saying, “the seq() function gives us a sequence of numbers…” we could say, “the seq() function returns us a sequence of numbers…” In programming lingo, functions return one or more results.\n\n\nGlobal environment\n\nComing soon.\n\nObjects\n\nComing soon.",
+    "crumbs": [
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Glossary</span>"
     ]
   }
 ]

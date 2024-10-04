@@ -1,0 +1,14 @@
+---
+title: "Galery"
+filters:
+   - lightbox
+lightbox:
+  match: auto
+  effect: fade
+  desc-position: right
+  loop: false
+---
+
+![Formularz 1](images/wniosek1.png){group="my-gallery"}{#fig-elephant}
+![Formularz 2](images/wniosek2.png){group="my-gallery"}
+![Formularz 3](images/wniosek3.png){group="my-gallery"}

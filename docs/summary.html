@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>4&nbsp; Summary – DSP_DNS_Book</title>
+<title>6&nbsp; _Przykłady elementów – DSP_DNS_Book</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -64,7 +30,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./references.html" rel="next">
-<link href="./tables.html" rel="prev">
+<link href="./lightbox.html" rel="prev">
 <link href="./images/favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -75,6 +41,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -104,10 +73,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 
 
-<link rel="stylesheet" href="custom.css">
+<link rel="stylesheet" href="assets/custom.css">
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar floating slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -116,7 +85,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./summary.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Summary</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./summary.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">_Przykłady elementów</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -136,7 +105,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div class="sidebar-title mb-0 py-0">
       <a href="./">DSP_DNS_Book</a> 
         <div class="sidebar-tools-main tools-wide">
-    <a href="https://nmfs-opensci.github.io" title="NMFS Open Science" class="quarto-navigation-tool px-1" aria-label="NMFS Open Science"><i class="bi bi-globe"></i></a>
+    <a href="https://github.io" title="NMFS Open Science" class="quarto-navigation-tool px-1" aria-label="NMFS Open Science"><i class="bi bi-globe"></i></a>
     <div class="dropdown">
       <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
@@ -213,8 +182,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./galery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Galery</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lightbox.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Example Lightbox Document</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./summary.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">_Przykłady elementów</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -223,20 +204,49 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text">References</span></a>
   </div>
 </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#formatowanie" id="toc-formatowanie" class="nav-link active" data-scroll-target="#formatowanie"><span class="header-section-number">6.1</span> Formatowanie</a></li>
+  <li><a href="#callouts" id="toc-callouts" class="nav-link" data-scroll-target="#callouts"><span class="header-section-number">6.2</span> Callouts</a></li>
+  <li><a href="#kolumny" id="toc-kolumny" class="nav-link" data-scroll-target="#kolumny"><span class="header-section-number">6.3</span> Kolumny</a></li>
+  <li><a href="#grafiki" id="toc-grafiki" class="nav-link" data-scroll-target="#grafiki"><span class="header-section-number">6.4</span> Grafiki</a></li>
+  <li><a href="#asides" id="toc-asides" class="nav-link" data-scroll-target="#asides"><span class="header-section-number">6.5</span> Asides</a></li>
+  <li><a href="#tabs" id="toc-tabs" class="nav-link" data-scroll-target="#tabs"><span class="header-section-number">6.6</span> Tabs</a></li>
+  <li><a href="#glossary" id="toc-glossary" class="nav-link" data-scroll-target="#glossary"><span class="header-section-number">6.7</span> Glossary</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Summary</span></h1>
+<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">_Przykłady elementów</span></h1>
 </div>
 
 
@@ -253,18 +263,321 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>In summary, this book has no content whatsoever.</p>
-<div class="cell">
-<details class="code-fold">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<p>Poniżej elementy do zastosowania w DSP.</p>
+<section id="formatowanie" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="formatowanie"><span class="header-section-number">6.1</span> Formatowanie</h2>
+<ul>
+<li><mark> <strong>Verbatim code</strong> </mark></li>
+</ul>
+<p><a href="images/_format_verbatim.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="images/_format_verbatim.png" class="img-fluid" width="516"></a></p>
+<p><code>Tu jest verbatim code</code></p>
+<hr>
+<ul>
+<li><mark> <strong>Term definition</strong> </mark></li>
+</ul>
+<dl>
+<dt>Term 1</dt>
+<dd>
+<p>definicja terminu</p>
+</dd>
+</dl>
+<hr>
+<ul>
+<li><mark> <strong>Block quotes</strong> </mark></li>
+</ul>
+<p><a href="images/clipboard-169377371.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="images/clipboard-169377371.png" class="img-fluid" width="478"></a></p>
+<blockquote class="blockquote">
+<p>To jest block quotes</p>
+</blockquote>
+<hr>
+<ul>
+<li><mark> <strong>HTML własny np. odstępy</strong> </mark></li>
+</ul>
+<p><code>&lt;div style="margin-top: 30px;"&gt;&lt;/div&gt;</code></p>
+<hr>
+<ul>
+<li><mark> <strong>Podświetlenie tekstu mark</strong></mark></li>
+</ul>
+<p><code>&lt;mark&gt; To jest zmarkowany tekst &lt;/mark&gt;</code></p>
+<hr>
+<ul>
+<li><mark> <strong>Ukrycie elementu</strong> </mark></li>
+</ul>
+<p><a href="images/_format_hidden.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="images/_format_hidden.png" class="img-fluid" width="423"></a></p>
+<hr>
+</section>
+<section id="callouts" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="callouts"><span class="header-section-number">6.2</span> Callouts</h2>
+<ul>
+<li><mark> <strong>Podstawowe callouts</strong> </mark></li>
+</ul>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Caution
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Tu znajduje się zwijana sekcja w boxie callout typu caution</p>
 </div>
 </div>
+</div>
+<p><a href="images/_format_call1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="images/_format_call1.png" class="img-fluid"></a></p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Altair is based on Vega-Lite, a high-level grammar of interactive graphics</p>
+</div>
+</div>
+<p><a href="images/_format_call2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img src="images/_format_call2.png" class="img-fluid"></a></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A tu znajduje się callout note</p>
+</div>
+</div>
+<p><a href="images/_format_call3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img src="images/_format_call3.png" class="img-fluid"></a></p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+This is Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Danger, callouts will really improve your writing.</p>
+</div>
+</div>
+<p><a href="images/_format_call4.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img src="images/_format_call4.png" class="img-fluid" width="500"></a></p>
+<hr>
+</section>
+<section id="kolumny" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="kolumny"><span class="header-section-number">6.3</span> Kolumny</h2>
+<ul>
+<li><mark> <strong>Trzy kolumny</strong> </mark></li>
+</ul>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="3">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<p>This is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files.</p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<p>This is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files.</p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<p>This is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files.</p>
+</div>
+</div>
+</div>
+<p><a href="images/_format_kolumny3.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img src="images/_format_kolumny3.png" class="img-fluid"></a></p>
+<hr>
+<ul>
+<li><mark> <strong>Dwie kolumny</strong> </mark></li>
+</ul>
+<div class="columns">
+<div class="column" style="width:30%;">
+<p>This is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files.</p>
+</div><div class="column" style="width:10%;">
+
+</div><div class="column" style="width:60%;">
+<p>This is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files.</p>
+</div>
+</div>
+<hr>
+<p><a href="images/_format_kolumny2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-9"><img src="images/_format_kolumny2.png" class="img-fluid"></a></p>
+<hr>
+</section>
+<section id="grafiki" class="level2" data-number="6.4">
+<h2 data-number="6.4" class="anchored" data-anchor-id="grafiki"><span class="header-section-number">6.4</span> Grafiki</h2>
+<ul>
+<li><mark> <strong>Lightbox</strong> </mark></li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/mv-0.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-10;title:Beach in Chilmark;" data-gallery="quarto-lightbox-gallery-10" title="Beach in Chilmark"><img src="images/mv-0.jpg" class="img-fluid figure-img" alt="Beach in Chilmark"></a></p>
+<figcaption>Beach in Chilmark</figcaption>
+</figure>
+</div>
+<p><a href="images/_format_lightbox1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-11"><img src="images/_format_lightbox1.png" class="img-fluid"></a></p>
+<hr>
+<ul>
+<li><mark> <strong>Lightbox grupa</strong> </mark></li>
+</ul>
+<p>The below demonstrates placing more than one image in a gallery. Note the usage of the <code>layout-ncol</code> which arranges the images on the page side by date. Adding the <code>group</code> attribute to the markdown images places the images in a gallery grouped together based upon the group name provided.</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[[1, 1], [1]]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/mv-1.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-12;title:Aquinnah;" data-gallery="elsewhere" title="Aquinnah"><img src="images/mv-1.jpg" class="img-fluid figure-img" alt="Aquinnah"></a></p>
+<figcaption>Aquinnah</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/mv-3.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-13;title:Oak Bluffs;" data-gallery="elsewhere" title="Oak Bluffs"><img src="images/mv-3.jpg" class="img-fluid figure-img" alt="Oak Bluffs"></a></p>
+<figcaption>Oak Bluffs</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 100.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/mv-2.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-14;title:Vineyard lighthouse;" data-gallery="elsewhere" title="Vineyard lighthouse"><img src="images/mv-2.jpg" class="img-fluid figure-img" alt="Vineyard lighthouse"></a></p>
+<figcaption>Vineyard lighthouse</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p><a href="images/_format_lightbox2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-15"><img src="images/_format_lightbox2.png" class="img-fluid"></a></p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout="[[1, 1, 1]]">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/wniosek1.png" class="lightbox" data-glightbox="description: .lightbox-desc-16;title:Makieta 1;" data-gallery="makiety" title="Makieta 1"><img src="images/wniosek1.png" class="img-fluid figure-img" alt="Makieta 1"></a></p>
+<figcaption>Makieta 1</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/wniosek2.png" class="lightbox" data-glightbox="description: .lightbox-desc-17;title:Makieta 2;" data-gallery="makiety" title="Makieta 2"><img src="images/wniosek2.png" class="img-fluid figure-img" alt="Makieta 2"></a></p>
+<figcaption>Makieta 2</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="images/wniosek3.png" class="lightbox" data-glightbox="description: .lightbox-desc-18;title:Makieta 3;" data-gallery="makiety" title="Makieta 3"><img src="images/wniosek3.png" class="img-fluid figure-img" alt="Makieta 3"></a></p>
+<figcaption>Makieta 3</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="asides" class="level2 page-columns page-full" data-number="6.5">
+<h2 data-number="6.5" class="anchored" data-anchor-id="asides"><span class="header-section-number">6.5</span> Asides</h2>
+<ul>
+<li><mark> <strong>Aside boczne</strong> </mark></li>
+</ul>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">By “right format”, we mean that the data is tidy, and ready to be summarised and graphed.</span></div></div>
+<p><a href="images/_format_aside.png" class="lightbox" data-gallery="quarto-lightbox-gallery-19"><img src="images/_format_aside.png" class="img-fluid"></a></p>
+<hr>
+<ul>
+<li><mark> <strong>Aside boczne callout</strong> </mark></li>
+</ul>
+
+<div class="no-row-height column-margin column-container"><div class="margin-aside">
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Uwaga
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>To jest przykładowy callout w sekcji bocznej.</p>
+</div>
+</div>
+</div>
+</div></div><p><a href="images/_format_aside2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-20"><img src="images/_format_aside2.png" class="img-fluid"></a></p>
+<hr>
+</section>
+<section id="tabs" class="level2" data-number="6.6">
+<h2 data-number="6.6" class="anchored" data-anchor-id="tabs"><span class="header-section-number">6.6</span> Tabs</h2>
+<ul>
+<li><mark> <strong>Tabsy</strong> </mark></li>
+</ul>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Plots</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Data</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p><a href="images/altair-hist.png" class="lightbox" data-gallery="quarto-lightbox-gallery-21"><img src="images/altair-hist.png" class="img-fluid"></a></p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>If you want to allow users to toggle between multiple visualizations, use a tabset (div with class .panel-tabset). Include a heading (e.g.&nbsp;##) for each tab in the tabset.</p>
+<p>For example, here are a plot and data each presented in their own tab.</p>
+</div>
+</div>
+</div>
+<p><a href="images/_format_tabset.png" class="lightbox" data-gallery="quarto-lightbox-gallery-22"><img src="images/_format_tabset.png" class="img-fluid"></a></p>
+<hr>
+</section>
+<section id="glossary" class="level2" data-number="6.7">
+<h2 data-number="6.7" class="anchored" data-anchor-id="glossary"><span class="header-section-number">6.7</span> Glossary</h2>
+<p>Test słowa w słowniku, który jest tu zlikowanyt to We want to define the term <a href="./glossary.html#glossary-data-frame">data frame</a> in the glossary</p>
+<p><a href="images/_format_glossary.png" class="lightbox" data-gallery="quarto-lightbox-gallery-23"><img src="images/_format_glossary.png" class="img-fluid" width="507"></a></p>
+<p>a w samym słowniku glossary.qmd definiujesz pojęcie:</p>
+<p><a href="images/_format_glossary2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-24"><img src="images/_format_glossary2.png" class="img-fluid"></a></p>
 
 
+<div class="hidden" aria-hidden="true">
+<div class="glightbox-desc lightbox-desc-10">
+<p>Chilmark has a reputation as having some of the best beaches on Martha’s Vineyard. Chilmark beaches are resident only in the summer, so be sure to have your proof of residency ready if you’d like to visit one of these special places. <em>credit:</em> <a href="https://unsplash.com/photos/VBDJGOMCwps">Chilmark Beach</a></p>
+</div>
+<div class="glightbox-desc lightbox-desc-12">
+<p>The waves break off the coast of Aquinnah on a beautiful summer day.</p>
+</div>
+<div class="glightbox-desc lightbox-desc-13">
+<p>Oak Bluffs is famous for its Gingerbread cottages, busy town center, and party like atmosphere.</p>
+</div>
+<div class="glightbox-desc lightbox-desc-14">
+<p>The Edgartown Lighthouse is a short walk from downtown and has beautiful views over the entrance to Edgartown Harbor.</p>
+</div>
+<div class="glightbox-desc lightbox-desc-16">
+<p>Makieta 1 - główny formularz tabeli z wnioskami do zarządzania elementami w systemie.</p>
+</div>
+<div class="glightbox-desc lightbox-desc-17">
+<p>Makieta 2 - podgląd wniosku dotyczący wniosku stref</p>
+</div>
+<div class="glightbox-desc lightbox-desc-18">
+<p>Makieta 3</p>
+</div>
+</div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -689,8 +1002,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./tables.html" class="pagination-link" aria-label="Tables">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Tables</span></span>
+      <a href="./lightbox.html" class="pagination-link" aria-label="Example Lightbox Document">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Example Lightbox Document</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
@@ -713,6 +1026,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","loop":false,"openEffect":"zoom","descPosition":"bottom"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

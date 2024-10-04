@@ -29,7 +29,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./summary.html" rel="next">
+<link href="./galery.html" rel="next">
 <link href="./document.html" rel="prev">
 <link href="./images/favicon.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="custom.css">
+<link rel="stylesheet" href="assets/custom.css">
 </head>
 
 <body class="nav-sidebar floating">
@@ -102,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
     <div class="sidebar-title mb-0 py-0">
       <a href="./">DSP_DNS_Book</a> 
         <div class="sidebar-tools-main tools-wide">
-    <a href="https://nmfs-opensci.github.io" title="NMFS Open Science" class="quarto-navigation-tool px-1" aria-label="NMFS Open Science"><i class="bi bi-globe"></i></a>
+    <a href="https://github.io" title="NMFS Open Science" class="quarto-navigation-tool px-1" aria-label="NMFS Open Science"><i class="bi bi-globe"></i></a>
     <div class="dropdown">
       <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
@@ -179,8 +179,20 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./galery.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Galery</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./lightbox.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Example Lightbox Document</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">_Przykłady elementów</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -189,6 +201,23 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">References</span></a>
   </div>
 </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+ <span class="menu-text">Appendices</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./glossary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">Glossary</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -203,7 +232,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#markdown-tables" id="toc-markdown-tables" class="nav-link" data-scroll-target="#markdown-tables"><span class="header-section-number">3.1.1</span> Markdown Tables</a></li>
   </ul></li>
-  <li><a href="#see-tbl-letters" id="toc-see-tbl-letters" class="nav-link" data-scroll-target="#see-tbl-letters"><span class="header-section-number">3.2</span> See Table&nbsp;<span>3.1</span></a></li>
+  <li><a href="#see" id="toc-see" class="nav-link" data-scroll-target="#see"><span class="header-section-number">3.2</span> See</a></li>
   </ul>
 </nav>
     </div>
@@ -234,11 +263,14 @@ ul.task-list li input[type="checkbox"] {
 <p>Poniżej znajdują się przykładowe tabele. Zerknij</p>
 <section id="markdown-tables" class="level3" data-number="3.1.1">
 <h3 data-number="3.1.1" class="anchored" data-anchor-id="markdown-tables"><span class="header-section-number">3.1.1</span> Markdown Tables</h3>
-<p>Ten tekst jest formatowany przez CSS</p>
-<div id="tbl-letters" class="striped hover quarto-float quarto-figure quarto-figure-center anchored">
+<div class="my-text">
+<p>Ten tekst jest formatowany przez CSS i jest</p>
+</div>
+<div class="my-table">
+<div id="tbl-letters" class="hover quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <div aria-describedby="tbl-letters-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="table-striped table-hover table">
+<table class="table-hover table">
 <thead>
 <tr class="header">
 <th>Default</th>
@@ -274,11 +306,62 @@ Table&nbsp;3.1: My Caption
 </figcaption>
 </figure>
 </div>
-<p>When reviewing a document you often want to provide inline comments with suggested revisions. This is possible in Quarto using HTML comments (which are ignored by all output formats). Visual mode includes a command for inserting HTML comments as well as special highlighting <!--# I to jest komentarz --> treatment to easily parse out editing <!--# czcz -->comments from surrounding text.</p>
+</div>
+<p>When reviewing a document you often want to provide inline comments with suggested revisions. This is possible in Quarto using HTML comments (which are ignored by all output formats). Visual mode includes a command for inserting HTML comments as well as special highlighting <!--# I to jest komentarz --> treatment to easily parse out editing <!--# czcz -->comments from surrounding text. No text.</p>
 </section>
 </section>
-<section id="see-tbl-letters" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="see-tbl-letters"><span class="header-section-number">3.2</span> See <a href="#tbl-letters" class="quarto-xref">Table&nbsp;<span>3.1</span></a></h2>
+<section id="see" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="see"><span class="header-section-number">3.2</span> See</h2>
+<p>Zobacz tu cross reference -&gt; <a href="#tbl-letters" class="quarto-xref">Table&nbsp;<span>3.1</span></a></p>
+<p><strong>Historia zmian</strong></p>
+<div class="my-table">
+<div id="tbl-ciekawa" class="quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[10,10,20,60]">
+<figure class="quarto-float quarto-float-tbl figure">
+<div aria-describedby="tbl-ciekawa-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 20%">
+<col style="width: 60%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Data zmiany</th>
+<th style="text-align: center;">Wersja dokumentu</th>
+<th style="text-align: left;">Kto zmienił</th>
+<th style="text-align: left;">Opis zmiany</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">08.11.2023</td>
+<td style="text-align: center;">1.0</td>
+<td style="text-align: left;">Michał Lesiowski</td>
+<td style="text-align: left;">Utworzenie dokumentu</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">01.03.2024</td>
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">Michał Lesiowski</td>
+<td style="text-align: left;">Aktualizacja - słownik konfigurator, podgląd zgłoszenia (przycisk edycja), powiadomienia o akcji</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">06.05.2024</td>
+<td style="text-align: center;">1.2</td>
+<td style="text-align: left;">Michał Lesiowski</td>
+<td style="text-align: left;">Aktualizacja makiet, Baza zgłoszeń mechanizm edycja/zapisz, dodanie szablonów email do wysyłki informacji z podglądu zgłoszenia - raport wstępny, raport końcowy.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-tbl" id="tbl-ciekawa-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;3.2: Historia wersji dokumentu
+</figcaption>
+</figure>
+</div>
+</div>
+<p>Powyższa tabela mogłaby zaciągać informacje z Commit w te miejsca oraz numery wersji</p>
 
 
 </section>
@@ -711,8 +794,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./summary.html" class="pagination-link" aria-label="Summary">
-        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Summary</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./galery.html" class="pagination-link" aria-label="Galery">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Galery</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

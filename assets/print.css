@@ -1,0 +1,18 @@
+.aside {
+    display: none;
+}
+
+.callout-note {
+  border: 2px solid red;
+}
+
+.print-only {
+  display: none;
+  color: aquamarine;
+}
+
+.custom-class {
+    color: blue; /* Przykład: niebieski tekst */
+    font-size: 14pt; /* Przykład: rozmiar czcionki */
+    margin: 10px 0; /* Przykład: margines */
+}

@@ -2,25 +2,43 @@
 title: "Tables"
 ---
 
-
 ## Tables
 
 Poniżej znajdują się przykładowe tabele. Zerknij
 
 ### Markdown Tables
 
+::: my-text
+Ten tekst jest formatowany przez CSS i jest
+:::
 
-Ten tekst jest formatowany przez CSS
-
-
+::: my-table
 | Default | Left | Right | Center |
 |---------|:-----|------:|:------:|
 | 12      | 12   |    12 |   12   |
 | 123     | 123  |   123 |  123   |
 | 1       | 1    |     1 |   1    |
 
-: My Caption {#tbl-letters} {.striped .hover} 
+: My Caption {#tbl-letters} {.hover}
+:::
 
-When reviewing a document you often want to provide inline comments with suggested revisions. This is possible in Quarto using HTML comments (which are ignored by all output formats). Visual mode includes a command for inserting HTML comments as well as special highlighting <!--# I to jest komentarz --> treatment to easily parse out editing <!--# czcz -->comments from surrounding text.
+When reviewing a document you often want to provide inline comments with suggested revisions. This is possible in Quarto using HTML comments (which are ignored by all output formats). Visual mode includes a command for inserting HTML comments as well as special highlighting <!--# I to jest komentarz --> treatment to easily parse out editing <!--# czcz -->comments from surrounding text. No text.
 
-## See @tbl-letters
+## See
+
+Zobacz tu cross reference -\> @tbl-letters
+
+**Historia zmian**
+
+::: my-table
+| Data zmiany | Wersja dokumentu | Kto zmienił      | Opis zmiany                                                                                                                                                       |
+|:----------------|:---------------:|:----------------|:--------------------|
+| 08.11.2023  |       1.0        | Michał Lesiowski | Utworzenie dokumentu                                                                                                                                              |
+| 01.03.2024  |       1.1        | Michał Lesiowski | Aktualizacja - słownik konfigurator, podgląd zgłoszenia (przycisk edycja), powiadomienia o akcji                                                                  |
+| 06.05.2024  |       1.2        | Michał Lesiowski | Aktualizacja makiet, Baza zgłoszeń mechanizm edycja/zapisz, dodanie szablonów email do wysyłki informacji z podglądu zgłoszenia - raport wstępny, raport końcowy. |
+
+: Historia wersji dokumentu {#tbl-ciekawa}
+: {tbl-colwidths="[10,10,20,60]"}
+:::
+
+Powyższa tabela mogłaby zaciągać informacje z Commit w te miejsca oraz numery wersji

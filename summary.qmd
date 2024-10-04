@@ -1,7 +1,207 @@
-# Summary
+---
+title: _Przykłady elementów
+filters:
+  - lightbox
+lightbox: auto
+---
 
-In summary, this book has no content whatsoever.
+Poniżej elementy do zastosowania w DSP.
 
-```{r}
-1 + 1
-```
+## Formatowanie
+
+-   <mark> **Verbatim code** </mark>
+
+![](images/_format_verbatim.png){width="516"}
+
+`Tu jest verbatim code`
+
+------------------------------------------------------------------------
+
+-   <mark> **Term definition** </mark>
+
+Term 1
+
+:   definicja terminu
+
+------------------------------------------------------------------------
+
+-   <mark> **Block quotes** </mark>
+
+![](images/clipboard-169377371.png){width="478"}
+
+> To jest block quotes
+
+------------------------------------------------------------------------
+
+-   <mark> **HTML własny np. odstępy** </mark>
+
+`<div style="margin-top: 30px;"></div>`
+
+------------------------------------------------------------------------
+
+-   <mark> **Podświetlenie tekstu mark**</mark>
+
+`<mark> To jest zmarkowany tekst </mark>`
+
+------------------------------------------------------------------------
+
+-   <mark> **Ukrycie elementu** </mark>
+
+![](images/_format_hidden.png){width="423"}
+
+------------------------------------------------------------------------
+
+## Callouts
+
+-   <mark> **Podstawowe callouts** </mark>
+
+::: {.callout-caution collapse="true"}
+Tu znajduje się zwijana sekcja w boxie callout typu caution
+:::
+
+![](images/_format_call1.png)
+
+::: callout-tip
+Altair is based on Vega-Lite, a high-level grammar of interactive graphics
+:::
+
+![](images/_format_call2.png)
+
+::: callout-note
+A tu znajduje się callout note
+:::
+
+![](images/_format_call3.png)
+
+::: callout-important
+## This is Important
+
+Danger, callouts will really improve your writing.
+:::
+
+![](images/_format_call4.png){width="500"}
+
+------------------------------------------------------------------------
+
+## Kolumny
+
+-   <mark> **Trzy kolumny** </mark>
+
+::: {layout-ncol="3"}
+This is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files.
+
+This is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files.
+
+This is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files.
+:::
+
+![](images/_format_kolumny3.png)
+
+------------------------------------------------------------------------
+
+-   <mark> **Dwie kolumny** </mark>
+
+:::::: columns
+::: {.column width="30%"}
+This is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files.
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="60%"}
+This is a template for a simple Quarto book output to html, PDF or docx format. It includes a GitHub Action that will build the website automatically when you make changes to the files.
+:::
+::::::
+
+------------------------------------------------------------------------
+
+![](images/_format_kolumny2.png)
+
+------------------------------------------------------------------------
+
+## Grafiki
+
+-   <mark> **Lightbox** </mark>
+
+![Beach in Chilmark](images/mv-0.jpg){description="Chilmark has a reputation as having some of the best beaches on Martha's Vineyard. Chilmark beaches are resident only in the summer, so be sure to have your proof of residency ready if you'd like to visit one of these special places. _credit:_ [Chilmark Beach](https://unsplash.com/photos/VBDJGOMCwps)" desc-position="left"}
+
+![](images/_format_lightbox1.png)
+
+------------------------------------------------------------------------
+
+-   <mark> **Lightbox grupa** </mark>
+
+The below demonstrates placing more than one image in a gallery. Note the usage of the `layout-ncol` which arranges the images on the page side by date. Adding the `group` attribute to the markdown images places the images in a gallery grouped together based upon the group name provided.
+
+::: {layout="[[1, 1], [1]]"}
+![Aquinnah](images/mv-1.jpg){group="elsewhere" description="The waves break off the coast of Aquinnah on a beautiful summer day."}
+
+![Oak Bluffs](images/mv-3.jpg){group="elsewhere" description="Oak Bluffs is famous for its Gingerbread cottages, busy town center, and party like atmosphere."}
+
+![Vineyard lighthouse](images/mv-2.jpg){group="elsewhere" description="The Edgartown Lighthouse is a short walk from downtown and has beautiful views over the entrance to Edgartown Harbor."}
+:::
+
+![](images/_format_lightbox2.png)
+
+::: {layout="[[1, 1, 1]]"}
+![Makieta 1](images/wniosek1.png){group="makiety" description="Makieta 1 - główny formularz tabeli z wnioskami do zarządzania elementami w systemie."}
+
+![Makieta 2](images/wniosek2.png){group="makiety" description="Makieta 2 -  podgląd wniosku dotyczący wniosku stref"}
+
+![Makieta 3](images/wniosek3.png){group="makiety" description="Makieta 3"}
+:::
+
+## Asides
+
+-   <mark> **Aside boczne** </mark>
+
+[By "right format", we mean that the data is tidy, and ready to be summarised and graphed.]{.aside}
+
+![](images/_format_aside.png)
+
+------------------------------------------------------------------------
+
+-   <mark> **Aside boczne callout** </mark>
+
+:::: aside
+::: {.callout-note collapse="true"}
+# Uwaga
+
+To jest przykładowy callout w sekcji bocznej.
+:::
+::::
+
+![](images/_format_aside2.png)
+
+------------------------------------------------------------------------
+
+## Tabs
+
+-   <mark> **Tabsy** </mark>
+
+::: panel-tabset
+### Plots
+
+![](images/altair-hist.png)
+
+### Data
+
+If you want to allow users to toggle between multiple visualizations, use a tabset (div with class .panel-tabset). Include a heading (e.g. ##) for each tab in the tabset.
+
+For example, here are a plot and data each presented in their own tab.
+:::
+
+![](images/_format_tabset.png)
+
+------------------------------------------------------------------------
+
+## Glossary
+
+Test słowa w słowniku, który jest tu zlikowanyt to We want to define the term [data frame](glossary.qmd#glossary-data-frame) in the glossary
+
+![](images/_format_glossary.png){width="507"}
+
+a w samym słowniku glossary.qmd definiujesz pojęcie:
+
+![](images/_format_glossary2.png)
