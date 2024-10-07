@@ -32,7 +32,7 @@ Zobacz tu cross reference -\> @tbl-letters
 
 ::: my-table
 | Data zmiany | Wersja dokumentu | Kto zmienił | Opis zmiany |
-|:----------------|:---------------:|:----------------|:-------------------|
+|:---|:--:|:---|:---|
 | 08.11.2023 | 1.0 | Jan Kowalski | Utworzenie dokumentu |
 | 01.03.2024 | 1.1 | Jan Kowalski | Aktualizacja - słownik konfigurator, podgląd zgłoszenia (przycisk edycja), powiadomienia o akcji |
 | 06.05.2024 | 1.2 | Jan Kowalski | Aktualizacja makiet, Baza zgłoszeń mechanizm edycja/zapisz, dodanie szablonów email do wysyłki informacji z podglądu zgłoszenia - raport wstępny, raport końcowy. |
