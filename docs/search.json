@@ -254,7 +254,7 @@
     "href": "summary.html",
     "title": "6  _Przykłady elementów",
     "section": "",
-    "text": "6.1 Formatowanie\nTu jest verbatim code\n&lt;div style=\"margin-top: 30px;\"&gt;&lt;/div&gt;\n&lt;mark&gt; To jest zmarkowany tekst &lt;/mark&gt;",
+    "text": "6.1 Formatowanie\nTu jest verbatim code\n&lt;div style=\"margin-top: 30px;\"&gt;&lt;/div&gt;\nlub przez klasy:\n&lt;mark&gt; To jest zmarkowany tekst &lt;/mark&gt;",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>_Przykłady elementów</span>"
     ]
@@ -264,7 +264,7 @@
     "href": "summary.html#formatowanie",
     "title": "6  _Przykłady elementów",
     "section": "",
-    "text": "Verbatim code \n\n\n\n\n\n Term definition \n\n\nTerm 1\n\ndefinicja terminu\n\n\n\n\n Block quotes \n\n\n\nTo jest block quotes\n\n\n\n HTML własny np. odstępy \n\n\n\n\n Podświetlenie tekstu mark\n\n\n\n\n Ukrycie elementu",
+    "text": "Verbatim code \n\n\n\n\n\n Term definition \n\n\nTerm 1\n\ndefinicja terminu\n\n\n\n\n Block quotes \n\n\n\nTo jest block quotes\n\n\n\n HTML własny np. odstępy \n\n\n\n\n\n\n Podświetlenie tekstu mark\n\n\n\n\n Ukrycie elementu",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>_Przykłady elementów</span>"
     ]

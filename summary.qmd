@@ -37,6 +37,10 @@ Term 1
 
 `<div style="margin-top: 30px;"></div>`
 
+lub przez klasy:
+
+![](images/_format_space.png){width="327"}
+
 ------------------------------------------------------------------------
 
 -   <mark> **Podświetlenie tekstu mark**</mark>
